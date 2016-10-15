@@ -1,0 +1,28 @@
+ body {
+    background: url(../assets/images/streak.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 200px;
+  }
+ 
+ h1 {
+   color: #F7F5E6;
+   font-size: 3em;
+ }
+ 
+ .chat-rooms {
+     float: left;
+     background:#52658F;
+     position: fixed;
+     height: 100%;
+     color: white;
+     text-align: right;
+ }
+ 
+.hr {
+   padding-top: 5px;
+   margin-top: 10px;
+   border-top: 3px solid white;
+}

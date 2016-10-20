@@ -1,5 +1,5 @@
- body {
-    background: url(../assets/images/streak.jpg);
+body {
+    background-image: url(../assets/images/streak.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -8,21 +8,36 @@
   }
  
  h1 {
-   color: #F7F5E6;
+   color: white;
    font-size: 3em;
+   text-align: center;
  }
- 
+
  .chat-rooms {
-     float: left;
-     background:#52658F;
+     left: 0%;
+     width: 15%;
+     background: #3B5998;
      position: fixed;
      height: 100%;
      color: white;
-     text-align: right;
+     text-align: left;
+     border-radius: 15px;
  }
  
-.hr {
+ .hr {
    padding-top: 5px;
    margin-top: 10px;
-   border-top: 3px solid white;
+   border-top: 3px solid #B6A754;
+ }
+
+.button {
+    background-color: #77BA9B;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.column fourth {
+    background-color: #639BF1;
 }

@@ -1,21 +1,109 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'angular-ui-boostrap' ]
 2 info using npm@2.15.9
 3 info using node@v4.6.0
-4 verbose readDependencies loading dependencies from /Users/alpeterson/Projects/bloc-chat/package.json
-5 error install Couldn't read dependencies
-6 verbose stack Error: ENOENT: no such file or directory, open '/Users/alpeterson/Projects/bloc-chat/package.json'
-6 verbose stack     at Error (native)
-7 verbose cwd /Users/alpeterson/Projects/bloc-chat
-8 error Darwin 15.6.0
-9 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
-10 error node v4.6.0
-11 error npm  v2.15.9
-12 error path /Users/alpeterson/Projects/bloc-chat/package.json
-13 error code ENOPACKAGEJSON
-14 error errno -2
-15 error syscall open
-16 error package.json ENOENT: no such file or directory, open '/Users/alpeterson/Projects/bloc-chat/package.json'
-16 error package.json This is most likely not a problem with npm itself.
-16 error package.json npm can't find a package.json file in your current directory.
-17 verbose exit [ -2, true ]
+4 verbose install initial load of /Users/alpeterson/Projects/bloc-chat/bloc-chat/package.json
+5 verbose installManyTop reading scoped package data from /Users/alpeterson/Projects/bloc-chat/bloc-chat/node_modules/connect-modrewrite/package.json
+6 verbose installManyTop reading scoped package data from /Users/alpeterson/Projects/bloc-chat/bloc-chat/node_modules/es5-shim/package.json
+7 verbose installManyTop reading scoped package data from /Users/alpeterson/Projects/bloc-chat/bloc-chat/node_modules/grunt/package.json
+8 verbose installManyTop reading scoped package data from /Users/alpeterson/Projects/bloc-chat/bloc-chat/node_modules/grunt-cli/package.json
+9 verbose installManyTop reading scoped package data from /Users/alpeterson/Projects/bloc-chat/bloc-chat/node_modules/grunt-contrib-clean/package.json
+10 verbose installManyTop reading scoped package data from /Users/alpeterson/Projects/bloc-chat/bloc-chat/node_modules/grunt-contrib-copy/package.json
+11 verbose installManyTop reading scoped package data from /Users/alpeterson/Projects/bloc-chat/bloc-chat/node_modules/grunt-contrib-watch/package.json
+12 verbose installManyTop reading scoped package data from /Users/alpeterson/Projects/bloc-chat/bloc-chat/node_modules/grunt-hapi/package.json
+13 verbose installManyTop reading scoped package data from /Users/alpeterson/Projects/bloc-chat/bloc-chat/node_modules/hapi/package.json
+14 verbose installManyTop reading scoped package data from /Users/alpeterson/Projects/bloc-chat/bloc-chat/node_modules/path/package.json
+15 info package.json hapi@7.5.3 No license field.
+16 info package.json grunt-hapi@0.12.0 No license field.
+17 info package.json connect-modrewrite@0.7.12 No license field.
+18 info package.json path@0.4.10 path is also the name of a node core module.
+19 info package.json grunt-cli@0.1.13 No license field.
+20 verbose readDependencies loading dependencies from /Users/alpeterson/Projects/bloc-chat/bloc-chat/package.json
+21 silly cache add args [ 'angular-ui-boostrap', null ]
+22 verbose cache add spec angular-ui-boostrap
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'angular-ui-boostrap',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'angular-ui-boostrap',
+23 silly cache add   rawSpec: '',
+23 silly cache add   spec: 'latest',
+23 silly cache add   type: 'tag' }
+24 silly addNamed angular-ui-boostrap@latest
+25 verbose addNamed "latest" is being treated as a dist-tag for angular-ui-boostrap
+26 info addNameTag [ 'angular-ui-boostrap', 'latest' ]
+27 silly mapToRegistry name angular-ui-boostrap
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'angular-ui-boostrap',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   name: 'angular-ui-boostrap',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/angular-ui-boostrap
+32 verbose addNameTag registry:https://registry.npmjs.org/angular-ui-boostrap not in flight; fetching
+33 verbose request uri https://registry.npmjs.org/angular-ui-boostrap
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 6:14:37 PM
+36 verbose request id 5327031a8b26a310
+37 http request GET https://registry.npmjs.org/angular-ui-boostrap
+38 http 404 https://registry.npmjs.org/angular-ui-boostrap
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '2',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Wed, 19 Oct 2016 23:14:38 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   age: '0',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-ord1732-ORD',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1476918878.654567,VS0,VE90',
+39 verbose headers   vary: 'Accept-Encoding' }
+40 silly get cb [ 404,
+40 silly get   { 'content-type': 'application/json',
+40 silly get     'cache-control': 'max-age=0',
+40 silly get     'content-length': '2',
+40 silly get     'accept-ranges': 'bytes',
+40 silly get     date: 'Wed, 19 Oct 2016 23:14:38 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     age: '0',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-ord1732-ORD',
+40 silly get     'x-cache': 'MISS',
+40 silly get     'x-cache-hits': '0',
+40 silly get     'x-timer': 'S1476918878.654567,VS0,VE90',
+40 silly get     vary: 'Accept-Encoding' } ]
+41 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/angular-ui-boostrap
+41 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+41 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+41 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+41 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+41 verbose stack     at emitTwo (events.js:87:13)
+41 verbose stack     at Request.emit (events.js:172:7)
+41 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+41 verbose stack     at emitOne (events.js:82:20)
+41 verbose stack     at Request.emit (events.js:169:7)
+41 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12)
+42 verbose statusCode 404
+43 verbose pkgid angular-ui-boostrap
+44 verbose cwd /Users/alpeterson/Projects/bloc-chat/bloc-chat
+45 error Darwin 15.6.0
+46 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "angular-ui-boostrap"
+47 error node v4.6.0
+48 error npm  v2.15.9
+49 error code E404
+50 error 404 Registry returned 404 for GET on https://registry.npmjs.org/angular-ui-boostrap
+50 error 404
+50 error 404 'angular-ui-boostrap' is not in the npm registry.
+50 error 404 You should bug the author to publish it (or use the name yourself!)
+50 error 404 It was specified as a dependency of 'bloc-chat'
+50 error 404
+50 error 404 Note that you can also install from a
+50 error 404 tarball, folder, http url, or git url.
+51 verbose exit [ 1, true ]

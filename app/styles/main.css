@@ -7,7 +7,7 @@ body {
     padding-bottom: 200px;
   }
  
- h1 {
+ .hero-title {
    color: white;
    font-size: 3em;
    text-align: center;
@@ -40,4 +40,40 @@ body {
 
 .column fourth {
     background-color: #639BF1;
+}
+
+.chat-screen {
+   margin-left: 10%;
+   width: 65%;
+   height: 80%;
+   background-color: white;
+   color: grey;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   opacity: 0.75;
+ }
+
+ .hr-grey {
+   padding-top: 5px;
+   margin-top: 10px;
+ 	border-top: 3px solid grey;
+ }
+ 
+ .chat-heading {
+   padding-top: 20px;
+ }
+ 
+ .input-group {
+   padding-top: 10px;
+ }
+
+ .messages {
+   margin-top: 10px;
+ }
+
+.rooms:hover {
+    color: lightgrey;
+    cursor: pointer;
+    text-decoration: underline;
 }

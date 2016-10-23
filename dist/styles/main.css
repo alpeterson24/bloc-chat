@@ -8,60 +8,65 @@ body {
   }
  
  .hero-title {
-   color: white;
+   color: #D1A683;
    font-size: 3em;
-   text-align: center;
+   text-align: left;
+   font-family: 'Lobster', cursive;
  }
 
  .chat-rooms {
      left: 0%;
      width: 15%;
-     background: #3B5998;
+     opacity: 0.75;
+     background-color: #1A2C56;
      position: fixed;
      height: 100%;
-     color: white;
+     color: #D1A683;
      text-align: left;
      border-radius: 15px;
+     font-family: 'Lobster', cursive;
+     border: 2px solid #D1A683;
  }
  
  .hr {
    padding-top: 5px;
    margin-top: 10px;
-   border-top: 3px solid #B6A754;
+   border-top: 2px solid #D1A683;
  }
 
 .button {
-    background-color: #77BA9B;
+    background-color: #D1A683;
     border: none;
     color: white;
     text-align: center;
     display: inline-block;
 }
 
-.column fourth {
-    background-color: #639BF1;
-}
 
 .chat-screen {
-   margin-left: 10%;
+   margin-left: 20%;
    width: 65%;
    height: 80%;
-   background-color: white;
-   color: grey;
+   background-color: #1A2C56;
+   color: #D1A683;
    padding-left: 50px;
    padding-right: 50px;
    padding-bottom: 50px;
    opacity: 0.75;
+   font-family: 'Lobster', cursive;
+   border-radius: 15px;
+   border: 2px solid #D1A683;
  }
 
  .hr-grey {
    padding-top: 5px;
    margin-top: 10px;
- 	border-top: 3px solid grey;
+   border-top: 3px solid grey;
  }
  
  .chat-heading {
    padding-top: 20px;
+   font-family: 'Lobster', cursive; 
  }
  
  .input-group {
@@ -76,4 +81,12 @@ body {
     color: lightgrey;
     cursor: pointer;
     text-decoration: underline;
+}
+
+.new-user {
+   background-color: #1A2C56;
+   color: #D1A683;
+   font-family: 'Lobster', cursive;
+   border-radius: 15px;
+   border: 4px solid #D1A683;
 }

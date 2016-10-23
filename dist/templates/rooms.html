@@ -10,15 +10,15 @@
 </section>
 
 <section class="chat-screen" ng-show="roomName != null">
-   <h1 class="chat-heading">{{ roomName}}</h1>
+   <h1 class="chat-heading">{{ roomName }}</h1>
    <div class="hr-grey"></div>
    <ul class="messages" ng-repeat="message in messages">
      <div>
-       {{ message.content }}<small class="pull-right">{{ message.sentAt | date:'hh:mm a MMM d'}}</small>
+       <small class="username">{{ message.username }} : </small>{{ message.content }}<small class="pull-right">{{ message.sentAt | date:'hh:mm a MMM d'}}</small>
      </div>
    </ul>
    <div class="input-group input-group-lg">
-      <input type="text" class="form-control" ng-model="newMessage" placeholder="Enter new message...">
+      <input type="text" class="form-control" ng-model="newMessage" placeholder="What's on your mind?">
       <span class="input-group-btn">
           <button class="btn btn-success" type="button" ng-disabled="newMessage === ''" ng-click="sendMessage()">Send</button>
       </span>

@@ -7,4 +7,4 @@ A message application made with Angular1 and using cookies and FirebaseJS for st
 
 You can access the application [here](http://typesetter-colin-31387.netlify.com/).
 
-Sign in to create chat rooms and join in a conversation. 
+Sign in to create chat rooms and join a conversation. 
